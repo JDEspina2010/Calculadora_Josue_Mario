@@ -1,0 +1,26 @@
+*{
+    margin: 10px;
+}
+.hijopapa{
+    width: 80%;
+    border: black 3px solid;
+    height: 600px;
+}
+.hijopapa2{
+    display: flex;
+    width: 80%;
+    border: black 3px solid;
+    height: 100px;
+}
+.hijo1{
+    width: 15%;
+}
+.hijo2{
+    width: 15%;
+}
+.hijo3{
+    width: 15%;
+}
+.hijo4{
+
+}
