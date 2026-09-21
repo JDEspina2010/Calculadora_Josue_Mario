@@ -10,7 +10,7 @@ document.querySelectorAll(".numero").forEach(btn => {
 document.getElementById("borrar").onclick = () => {
     document.getElementById("Num1").value = "";
     document.getElementById("Num2").value = "";
-    document.getElementById("resultado").innerText = "";
+    document.getElementById("resultado") = "";
     activo = document.getElementById("Num1"); 
 };
 
