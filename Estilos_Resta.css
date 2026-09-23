@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.master {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.hijopapa {
+    width: 340px;
+    border: black 3px solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.hijopapa2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hijo1 {
+    width: 40%;
+}
+
+.hijo1 input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.hijo1 input.activo {
+    border-color: #007bff;
+    background-color: #eaf4ff;
+}
+
+.hijo2 {
+    width: 15%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.teclado button {
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.2s;
+}
+
+.teclado button:hover {
+    background-color: #e2e2e2;
+}
+
+#resultado {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 25px;
+}
+body {
+  margin: 0;
+}
+
+.carrusel {
+  height: 27vh;
+  display: flex;
+  align-items: center;
+}
+
+.carrusel-items {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 30px 0px;
+}
+
+.carrusel-item {
+  min-width: 300px;
+  max-width: 300px;
+  height: 200px;
+  outline: 2px solid black;
+  cursor: pointer;
+}
+
+.carrusel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carrusel-item:hover {
+  transform: scale(1.2);
+}
+.titulo{
+    color: rgb(2, 2, 2);
+    background: linear-gradient(to right, rgb(218, 68, 68), rgb(250, 221, 140), rgb(218, 68, 68));
+    width: 33.33%;
+    height: 50px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.info{
+    color: rgb(2, 2, 2);
+    background: linear-gradient(to right, rgb(250, 198, 53), rgb(250, 252, 125), rgb(250, 198, 53));
+    height: 250px;
+    margin: 15px;
+    border-radius: 12px;
+}
+.margen{
+  background-color: blue;
+  width: 100%;
+  height: 5px;
+}

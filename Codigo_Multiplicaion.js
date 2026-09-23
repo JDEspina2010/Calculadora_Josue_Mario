@@ -17,9 +17,9 @@ document.getElementById("borrar").onclick = () => {
 document.getElementById("calcular").onclick = () => {
     let n1 = Number(document.getElementById("Num1").value);
     let n2 = Number(document.getElementById("Num2").value);
-    document.getElementById("resultado").innerText = "Resultado: " + (n1 + n2);
+    document.getElementById("resultado").innerText = "Resultado: " + (n1 * n2);
 };
-//Parte de el carrusel
+//Carrusel multiplicacíon
 const carruselElemento = document.querySelector(".carrusel-items");
 
 let posicionMaximaDesplazamiento = carruselElemento.scrollWidth - carruselElemento.clientWidth;
